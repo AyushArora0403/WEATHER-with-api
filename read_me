@@ -1,0 +1,49 @@
+WEATHER DASHBOARD README
+
+OVERVIEW The Weather Dashboard is a Python-based desktop application that provides real-time weather updates. It uses a graphical interface to help users search for current weather conditions across the globe, featuring a clean layout and automated history tracking.
+
+CORE FEATURES
+
+Real-Time Data: Fetches live temperature, humidity, wind speed, and atmospheric pressure.
+
+Visual Indicators: Uses weather-specific emojis to represent conditions like sunny, rainy, or cloudy.
+
+Search History: Remembers your recent searches and saves them to a local file for future sessions.
+
+Quick Links: Single-click buttons for popular global cities (London, Tokyo, New York, etc.).
+
+Robust Error Handling: Provides clear feedback for incorrect city names or connection issues.
+
+TECHNICAL STACK
+
+Language: Python 
+
+GUI Library: Tkinter
+
+API: OpenWeatherMap (Current Weather Data & Forecast)
+
+Dependencies: 'requests' library for handling API calls.
+
+HOW TO START
+
+Ensure Python is installed on your system.
+
+Install the required library by typing 'pip install requests' in your terminal.
+
+Run the script using the command: 'python <filename>.py'
+
+Enter a city name in the search bar and press Enter or click 'Search'.
+
+FILE MANAGEMENT
+
+weather_history.json: This file is automatically created in your project folder to store your search preferences and history.
+
+API Configuration: The API key and timeout settings are managed within the 'APIConfig' class for easy updates.
+
+USER CONTROLS
+
+Search Bar: Type any city name to fetch data.
+
+Clear History: Resets your saved search list.
+
+Quick Buttons: Click any city name in the bottom panel to refresh data instantly for that location.
